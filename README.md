@@ -3,7 +3,7 @@
 
 
 
-This project is about creating a small device that allows people to send and receive text messages without internet, Wi-Fi, or mobile network. It uses LoRa long-range radio technology to communicate between two or more users. The system is mainly designed for situations where normal communication fails, such as disasters or remote areas.
+This project is about creating a small device that allows people to send and receive text messages without internet, Wi-Fi, or mobile network. It uses LoRa long-range CSS radio technology to communicate between two or more users. The system is mainly designed for situations where normal communication fails, such as disasters or remote areas.
 
 
 ## Problem Statement
@@ -42,7 +42,7 @@ This device contains:
 
 The microcontroller controls all the operations and processes the data, while the LoRa module enables long-range wireless communication between users completely offline. Each user carries one device, and devices communicate directly through LoRa radio signals instead of relying on telecom towers.
 
-🔹 Mobile Application (Java Based)
+🔹 Mobile Application- LoRaMesh (Java Based)
 
 To make the system user-friendly, we have also developed an Android application using Java.
 The app allows the user to:
@@ -141,7 +141,7 @@ The proposed system is designed with a hardware communication layer and a mobile
 
 The system consists of the following major components:
 
-* Mobile Application (Java-based Android App)
+* Mobile Application- LoRaMesh (Java-based Android App)
 
 * Microcontroller Unit (Arduino Nano / ESP32-C3)
 
@@ -271,6 +271,11 @@ Profit margin on selling price ≈ 25.5%
 ##### LoraMesh Device
 
 ![alt](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/images/Images/Hardware%20Device.png?raw=true)
+
+#####  Demo Video
+
+[▶️ Click here to watch the demo video](https://drive.google.com/file/d/1gsXFa64tElPXJXZhJ_LYHP2dL0s99RwS/view?usp=sharing)
+
 ## How user use it?
 
 
