@@ -2,6 +2,8 @@
 # Offline Communication Device
 
 
+Theme- Open Innovation
+
 
 This project is about creating a small device that allows people to send and receive text messages without internet, Wi-Fi, or mobile network. It uses LoRa long-range CSS radio technology to communicate between two or more users. The system is mainly designed for situations where normal communication fails, such as disasters or remote areas.
 
