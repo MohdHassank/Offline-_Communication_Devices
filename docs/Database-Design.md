@@ -35,4 +35,4 @@ This schema allows:
 - Easy expansion for cloud sync or analytics in future
 
 This design ensures the system can scale when connected to a backend infrastructure.
-![image]([https://user-images.githubusercontent.com/....png](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/diagrams/Database%20Schema.png?raw=true))
+![image](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/diagrams/Database%20Schema.png?raw=true)
