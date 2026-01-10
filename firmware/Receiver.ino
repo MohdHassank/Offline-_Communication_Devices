@@ -1,17 +1,28 @@
-#include <SoftwareSerial.h>
+#include <SoftwareSerial.h>   // LoRa Library 
+
+// LoRa module ke RX-TX pins define kiye
 #define LORA_RX 2
 #define LORA_TX 3
                                                                                                           
 SoftwareSerial LoRaSerial(LORA_RX, LORA_TX);  
-const int DEVICE_ADDRESS = 1;                 
-const int TARGET_ADDRESS = 2;                                  
+
+// Apne device ka address (unique hota hai har device ka)
+const int DEVICE_ADDRESS = 1;    
+
+
+
+// Jis device ko message bhejna hai uska address
+const int TARGET_ADDRESS = 2;   ;                                  
 
 String userInput = "";
 
 void setup() {
-  Serial.begin(9600);
-  LoRaSerial.begin(115200);
-  delay(2000);
+  Serial.begin(9600);          // Serial Monitor ke liye baud rate
+  LoRaSerial.begin(115200);    // LoRa module ka baud rate
+  delay(2000);                 // Thoda delay taaki module properly start ho jaye
+
+
+  
   
   LoRaSerial.print("AT+ADDRESS=");
   LoRaSerial.println(DEVICE_ADDRESS);
@@ -25,15 +36,19 @@ void setup() {
 
 void loop() {
   
+  // Agar user ne Serial Monitor me kuch type kiya
   if (Serial.available()) {
-    userInput = Serial.readStringUntil('\n');
-    userInput.trim();
+    userInput = Serial.readStringUntil('\n');  // Enter tak input read karo
+    userInput.trim();                          // Extra spaces hata do
+    
     if (userInput.length() > 0) {
+      // AT command bana rahe hain message bhejne ke liye
       String cmd = "AT+SEND=" + String(TARGET_ADDRESS) + "," + String(userInput.length()) + "," + userInput;
-      LoRaSerial.println(cmd);
-      Serial.println("📤 Sent: " + userInput);
+      
+      LoRaSerial.println(cmd);        // Command LoRa module ko bheji
+      Serial.println("📤 Sent: " + userInput);  // Serial monitor pe show
     }
-  }
+  }}
  
 
   if (LoRaSerial.available()) {
