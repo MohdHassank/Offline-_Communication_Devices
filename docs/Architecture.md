@@ -82,5 +82,5 @@ sends data to user’s mobile app
 
 message is displayed to user
 
-![Demo Image](<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/703fda77-2d04-4e42-be64-41b264fdf86c" />
-)
+![Demo Image]([<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/703fda77-2d04-4e42-be64-41b264fdf86c" />
+)](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/images/Images/system_arcitecture.png?raw=true)
