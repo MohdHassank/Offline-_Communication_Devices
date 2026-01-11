@@ -8,7 +8,7 @@ This diagram represents the high-level overview of the system.
 - The entire system is shown as a single process.
 - Shows interaction between users and the offline communication system.
 
-![image](diagrams/DFD Level 0.png)
+![image]([diagrams/DFD Level 0.png](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/diagrams/DFD%20Level%200.png?raw=true))
 
 ## DFD Level 1 (System Breakdown)
 This diagram breaks the system into major components:
