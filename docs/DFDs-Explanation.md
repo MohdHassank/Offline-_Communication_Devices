@@ -20,7 +20,7 @@ This diagram breaks the system into major components:
 
 It explains how data flows from the user to the app, then to the device, transmitted over LoRa, and finally displayed to the receiver.
 
-![diagrams/DFD Level 1.png](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/diagrams/DFD%20Level%200.png?raw=true)
+![diagrams/DFD Level 1.png](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/diagrams/DFD%20Level%201.png?raw=true)
 
 ## DFD Level 2 (Detailed Flow)
 This is the most detailed diagram and shows internal processing such as:
@@ -35,4 +35,4 @@ This is the most detailed diagram and shows internal processing such as:
 
 These diagrams together demonstrate clear system understanding and design planning.
 
-![diagrams/DFD Level 1.png](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/diagrams/DFD%20Level%200.png?raw=true)
+![diagrams/DFD Level 1.png](https://github.com/MohdHassank/Offline-_Communication_Devices/blob/main/diagrams/DFD%20Level%202.png?raw=true)
