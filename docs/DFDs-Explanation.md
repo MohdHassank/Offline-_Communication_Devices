@@ -8,6 +8,8 @@ This diagram represents the high-level overview of the system.
 - The entire system is shown as a single process.
 - Shows interaction between users and the offline communication system.
 
+![image](diagrams/DFD Level 0.png)
+
 ## DFD Level 1 (System Breakdown)
 This diagram breaks the system into major components:
 - Mobile Application
@@ -17,6 +19,8 @@ This diagram breaks the system into major components:
 - Other User
 
 It explains how data flows from the user to the app, then to the device, transmitted over LoRa, and finally displayed to the receiver.
+
+![image](diagrams/DFD Level 1.png)
 
 ## DFD Level 2 (Detailed Flow)
 This is the most detailed diagram and shows internal processing such as:
@@ -30,3 +34,5 @@ This is the most detailed diagram and shows internal processing such as:
 - Optional external messaging bridge integration
 
 These diagrams together demonstrate clear system understanding and design planning.
+
+![image](diagrams/DFD Level 2.png)
