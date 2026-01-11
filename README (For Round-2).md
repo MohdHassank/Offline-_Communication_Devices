@@ -49,8 +49,8 @@ Implemented UI features:
 
 **Proof:**  
 - App source code available in `/app`  
-- UI screenshots included in README/images  
-- Demonstrated in demo video  
+- UI screenshots included in /images  
+ 
 
 
 ### 🗨️ 2. WhatsApp Offline Mode (External Messaging Bridge) - PROTOTYPE IMPLEMENTED
@@ -81,36 +81,7 @@ This feature represents **innovation beyond basic chat functionality**.
 
 
 
----
-
-### 🖼️ 3. Offline Image and File Sharing - ARCHITECTURE IMPLEMENTED & DOCUMENTED
-
-The system now supports the **technical pipeline required for file transfer**, including:
-
-Implemented processing logic:
-- File compression  
-- Splitting large data into small packets  
-- Sequential packet transmission over LoRa  
-- Reassembly of packets on receiver side  
-
-Supported content types:
-- Images  
-- PDF / text files  
-- Small documents  
-
-**Proof:**
-- Data flow included in DFD Level-2  
-- Encoding/decoding logic reflected in firmware and app pipeline  
-- Fully documented in system design  
-
-This allows real-world use cases such as:
-- Sharing disaster site photos  
-- Sending medical reports  
-- Transmitting identity documents offline  
-
----
-
-### 📡 4. Increased Communication Range — IMPLEMENTED & VALIDATED
+### 📡 3. Increased Communication Range — IMPLEMENTED & VALIDATED
 
 Range enhancement has been addressed both **technically and practically**.
 
