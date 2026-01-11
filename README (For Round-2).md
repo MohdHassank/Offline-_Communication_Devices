@@ -144,5 +144,5 @@ This confirms:
 - Real-world applicability
 
 ### Our Complete Prototype
-  ![gg]url(<img width="572" height="609" alt="image" src="https://github.com/user-attachments/assets/4505ed47-37da-452e-9c64-4d69480be168" />
-)
+  <img width="572" height="609" alt="image" src="https://github.com/user-attachments/assets/4505ed47-37da-452e-9c64-4d69480be168" />
+
