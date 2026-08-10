@@ -419,3 +419,19 @@ The project can be further improved with the following features:
 - SOS alerts with GPS location
 - Better Android application interface
 - Automatic message delivery and acknowledgement
+
+## Communication Architecture
+
+The system is designed around a lightweight offline communication architecture:
+
+**Android Phone → USB OTG → Microcontroller → LoRa Module → LoRa Network → Destination Device**
+
+The device acts as a communication bridge between an Android smartphone and the LoRa network, allowing messages and emergency information to be exchanged without relying on cellular networks or Wi-Fi infrastructure.
+
+### Data Flow
+
+1. User creates a message on the Android device.
+2. The message is transferred to the microcontroller through USB OTG.
+3. The LoRa module transmits the data wirelessly.
+4. The receiving LoRa module forwards the received data to its connected device.
+5. The Android application presents the received information to the user.
