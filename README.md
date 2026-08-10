@@ -407,3 +407,15 @@ Expected result:
 * wide-area emergency networks
 
 * strong coverage in forests and hills
+
+## Future Improvements
+
+The project can be further improved with the following features:
+
+- End-to-end message encryption
+- Multi-device mesh networking
+- Improved battery optimization
+- File and image sharing through packet fragmentation
+- SOS alerts with GPS location
+- Better Android application interface
+- Automatic message delivery and acknowledgement
